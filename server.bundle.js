@@ -599,7 +599,7 @@ var polyfills = __webpack_require__(324)
 var legacy = __webpack_require__(326)
 var clone = __webpack_require__(327)
 
-var util = __webpack_require__(36)
+var util = __webpack_require__(37)
 
 /* istanbul ignore next - node 0.x polyfill */
 var gracefulQueue
@@ -950,7 +950,7 @@ function retry () {
 /* harmony import */ var _home_runner_work_graphql_mesh_graphql_mesh_node_modules_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(40);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(41);
 /* harmony import */ var _docusaurus_isInternalUrl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(20);
 /* harmony import */ var _docusaurus_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(69);
 /* harmony import */ var _docusaurus_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_docusaurus_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_4__);
@@ -1287,7 +1287,7 @@ var path_to_regexp_default = /*#__PURE__*/__webpack_require__.n(path_to_regexp);
 var react_is = __webpack_require__(143);
 
 // EXTERNAL MODULE: ../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js
-var objectWithoutPropertiesLoose = __webpack_require__(31);
+var objectWithoutPropertiesLoose = __webpack_require__(32);
 
 // EXTERNAL MODULE: ../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
 var hoist_non_react_statics_cjs = __webpack_require__(222);
@@ -3095,7 +3095,7 @@ module.exports = {
 "use strict";
 
 
-var DOM = __webpack_require__(30);
+var DOM = __webpack_require__(31);
 
 function escapeRegExp(str) {
   return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
@@ -3238,7 +3238,7 @@ module.exports = require("fs");
 
 var roundingPrecisionFrom = __webpack_require__(113).roundingPrecisionFrom;
 
-var override = __webpack_require__(33);
+var override = __webpack_require__(34);
 
 var OptimizationLevel = {
   Zero: '0',
@@ -3486,6 +3486,20 @@ module.exports = {
 
 /***/ }),
 /* 29 */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+	"features": "features_P2SU",
+	"featureImage": "featureImage_3Xqx",
+	"buttons": "buttons_1Wc3",
+	"header": "header_1UBA",
+	"npmBadge": "npmBadge_v1eV"
+};
+
+
+/***/ }),
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Contains the interpretation of CSS properties, as used by the property optimizer
@@ -3494,7 +3508,7 @@ var breakUp = __webpack_require__(255);
 var canOverride = __webpack_require__(256);
 var restore = __webpack_require__(258);
 
-var override = __webpack_require__(33);
+var override = __webpack_require__(34);
 
 // Properties to process
 // Extend this object in order to add support for more properties in the optimizer.
@@ -4554,7 +4568,7 @@ module.exports = override(compactable, vendorPrefixedCompactable);
 
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4566,7 +4580,7 @@ module.exports = {
 
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4587,7 +4601,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 }
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports) {
 
 // Exports
@@ -4601,7 +4615,7 @@ module.exports = {
 
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports) {
 
 function override(source1, source2) {
@@ -4641,7 +4655,7 @@ module.exports = override;
 
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Hack = __webpack_require__(82);
@@ -4838,23 +4852,23 @@ module.exports = {
 
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports) {
 
 module.exports = require("https");
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports) {
 
 module.exports = require("util");
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 try {
-  var util = __webpack_require__(36);
+  var util = __webpack_require__(37);
   /* istanbul ignore next */
   if (typeof util.inherits !== 'function') throw '';
   module.exports = util.inherits;
@@ -4865,7 +4879,7 @@ try {
 
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports) {
 
 
@@ -4893,10 +4907,10 @@ module.exports = function forEach (obj, fn, ctx) {
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var foreach = __webpack_require__(38);
+var foreach = __webpack_require__(39);
 
 module.exports = function map(arr, fn) {
   var newArr = [];
@@ -4908,7 +4922,7 @@ module.exports = function map(arr, fn) {
 
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4930,7 +4944,7 @@ module.exports = function map(arr, fn) {
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2);
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(31);
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(32);
 /* harmony import */ var tiny_invariant__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(17);
 
 
@@ -5195,7 +5209,7 @@ if (false) { var ariaCurrentType; }
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8375,11 +8389,11 @@ Prism.languages.yml = Prism.languages.yaml;
 
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(40);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(41);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "a", function() { return react_router_dom__WEBPACK_IMPORTED_MODULE_0__["b"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "b", function() { return react_router_dom__WEBPACK_IMPORTED_MODULE_0__["c"]; });
@@ -8394,7 +8408,7 @@ Prism.languages.yml = Prism.languages.yaml;
  */
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8409,7 +8423,7 @@ Prism.languages.yml = Prism.languages.yaml;
  */function useThemeContext(){return Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_theme_ThemeContext__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"]);}/* harmony default export */ __webpack_exports__["a"] = (useThemeContext);
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8493,7 +8507,7 @@ var Link = __webpack_require__(11);
 var interopRequireWildcard = __webpack_require__(3);
 
 // EXTERNAL MODULE: ../node_modules/@docusaurus/core/lib/client/exports/router.js
-var router = __webpack_require__(42);
+var router = __webpack_require__(43);
 
 // EXTERNAL MODULE: ../node_modules/@docusaurus/theme-search-algolia/src/theme/SearchBar/styles.css
 var styles = __webpack_require__(352);
@@ -8528,7 +8542,7 @@ var Toggle_styles_module_default = /*#__PURE__*/__webpack_require__.n(Toggle_sty
  * LICENSE file in the root directory of this source tree.
  */const Moon=()=>/*#__PURE__*/react_default.a.createElement("span",{className:classnames_default()(Toggle_styles_module_default.a.toggle,Toggle_styles_module_default.a.moon)});const Sun=()=>/*#__PURE__*/react_default.a.createElement("span",{className:classnames_default()(Toggle_styles_module_default.a.toggle,Toggle_styles_module_default.a.sun)});/* harmony default export */ var Toggle = (function(props){const{isClient}=Object(useDocusaurusContext["a" /* default */])();return/*#__PURE__*/react_default.a.createElement(component_default.a,Object(esm_extends["a" /* default */])({disabled:!isClient,icons:{checked:/*#__PURE__*/react_default.a.createElement(Moon,null),unchecked:/*#__PURE__*/react_default.a.createElement(Sun,null)}},props));});
 // EXTERNAL MODULE: ../node_modules/@docusaurus/theme-classic/src/theme/hooks/useThemeContext.js
-var useThemeContext = __webpack_require__(43);
+var useThemeContext = __webpack_require__(44);
 
 // CONCATENATED MODULE: ../node_modules/@docusaurus/theme-classic/src/theme/hooks/useLocationHash.js
 /**
@@ -8584,7 +8598,7 @@ var Layout_styles = __webpack_require__(411);
  */function Layout(props){const{siteConfig={}}=Object(useDocusaurusContext["a" /* default */])();const{favicon,title:siteTitle,themeConfig:{image:defaultImage},url:siteUrl}=siteConfig;const{children,title,noFooter,description,image,keywords,permalink,version}=props;const metaTitle=title?`${title} | ${siteTitle}`:siteTitle;const metaImage=image||defaultImage;let metaImageUrl=siteUrl+Object(useBaseUrl["a" /* default */])(metaImage);if(!Object(isInternalUrl["a" /* default */])(metaImage)){metaImageUrl=metaImage;}const faviconUrl=Object(useBaseUrl["a" /* default */])(favicon);return/*#__PURE__*/react_default.a.createElement(theme_ThemeProvider,null,/*#__PURE__*/react_default.a.createElement(theme_TabGroupChoiceProvider,null,/*#__PURE__*/react_default.a.createElement(Head["a" /* default */],null,/*#__PURE__*/react_default.a.createElement("html",{lang:"en"}),metaTitle&&/*#__PURE__*/react_default.a.createElement("title",null,metaTitle),metaTitle&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:title",content:metaTitle}),favicon&&/*#__PURE__*/react_default.a.createElement("link",{rel:"shortcut icon",href:faviconUrl}),description&&/*#__PURE__*/react_default.a.createElement("meta",{name:"description",content:description}),description&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:description",content:description}),version&&/*#__PURE__*/react_default.a.createElement("meta",{name:"docsearch:version",content:version}),keywords&&keywords.length&&/*#__PURE__*/react_default.a.createElement("meta",{name:"keywords",content:keywords.join(',')}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{property:"twitter:image",content:metaImageUrl}),metaImage&&/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:image:alt",content:`Image for ${metaTitle}`}),permalink&&/*#__PURE__*/react_default.a.createElement("meta",{property:"og:url",content:siteUrl+permalink}),/*#__PURE__*/react_default.a.createElement("meta",{name:"twitter:card",content:"summary_large_image"})),/*#__PURE__*/react_default.a.createElement(theme_AnnouncementBar,null),/*#__PURE__*/react_default.a.createElement(theme_Navbar,null),/*#__PURE__*/react_default.a.createElement("div",{className:"main-wrapper"},children),!noFooter&&/*#__PURE__*/react_default.a.createElement(theme_Footer,null)));}/* harmony default export */ var theme_Layout = __webpack_exports__["a"] = (Layout);
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports) {
 
 // Exports
@@ -8594,19 +8608,6 @@ module.exports = {
 	"docItemCol": "docItemCol_1Z0t",
 	"tableOfContents": "tableOfContents_3iTc",
 	"docLastUpdatedAt": "docLastUpdatedAt_3R6k"
-};
-
-
-/***/ }),
-/* 46 */
-/***/ (function(module, exports) {
-
-// Exports
-module.exports = {
-	"buttons": "buttons_1Wc3",
-	"features": "features_P2SU",
-	"featureImage": "featureImage_3Xqx",
-	"buttonsWrapper": "buttonsWrapper_2zuM"
 };
 
 
@@ -9203,10 +9204,10 @@ module.exports = isRemoteResource;
 // We use custom error "types" so that we can act on them when we need it
 // e.g.: if error instanceof errors.UnparsableJSON then..
 
-var inherits = __webpack_require__(37);
+var inherits = __webpack_require__(38);
 
 function AlgoliaSearchError(message, extraProperties) {
-  var forEach = __webpack_require__(38);
+  var forEach = __webpack_require__(39);
 
   var error = this;
 
@@ -9655,7 +9656,7 @@ module.exports = {
 
 var systemLineBreak = __webpack_require__(111).EOL;
 
-var override = __webpack_require__(33);
+var override = __webpack_require__(34);
 
 var Breaks = {
   AfterAtRule: 'afterAtRule',
@@ -10163,7 +10164,7 @@ var populateComponents = __webpack_require__(85);
 
 var restoreWithComponents = __webpack_require__(86);
 
-var wrapForOptimizing = __webpack_require__(34).all;
+var wrapForOptimizing = __webpack_require__(35).all;
 var removeUnused = __webpack_require__(112);
 var restoreFromOptimizing = __webpack_require__(47);
 
@@ -10203,7 +10204,7 @@ module.exports = optimizeProperties;
 /* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var wrapSingle = __webpack_require__(34).single;
+var wrapSingle = __webpack_require__(35).single;
 
 var Token = __webpack_require__(8);
 
@@ -11739,7 +11740,7 @@ function renderRoutes(routes, extraProps, switchProps) {
 
 "use strict";
 /* harmony import */ var _docusaurus_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5);
-/* harmony import */ var _theme_hooks_useThemeContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(43);
+/* harmony import */ var _theme_hooks_useThemeContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(44);
 /* harmony import */ var _docusaurus_useBaseUrl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(13);
 /* harmony import */ var _docusaurus_isInternalUrl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(20);
 /**
@@ -11754,7 +11755,7 @@ function renderRoutes(routes, extraProps, switchProps) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony default export */ __webpack_exports__["a"] = ({"plugins":[],"themes":[],"customFields":{},"themeConfig":{"algolia":{"apiKey":"dc81d9e0ead1aecb5e776d262181ceeb","indexName":"graphql-mesh","algoliaOptions":{}},"navbar":{"title":"GraphQL Mesh","logo":{"alt":"GraphQL Mesh","src":"img/mesh-logo.svg"},"links":[{"to":"docs/getting-started/introduction","activeBasePath":"docs","label":"API & Documentation","position":"right"},{"href":"https://github.com/urigo/graphql-mesh","label":"GitHub","position":"right"},{"href":"https://the-guild.dev/connected-build?utm_source=github&utm_medium=release-note&utm_campaign=mesh#section-contact","label":"Contact Us","position":"right"}]},"footer":{"links":[{"title":"Community","items":[{"label":"Discord","href":"http://bit.ly/guild-chat"},{"label":"Stack Overflow","href":"https://stackoverflow.com/questions/tagged/graphql-mesh"}]},{"title":"Social","items":[{"label":"GitHub","href":"https://github.com/Urigo/graphql-mesh/"},{"label":"Twitter","href":"https://twitter.com/TheGuildDev"}]}],"copyright":"Copyright © 2020 GraphQL Mesh, The Guild, Inc. Built with Docusaurus."}},"title":"GraphQL Mesh","tagline":"Query anything, run anywhere","url":"https://graphql-mesh.com","baseUrl":"/","favicon":"img/favicon.ico","organizationName":"urigo","projectName":"graphql-mesh","presets":[["@docusaurus/preset-classic",{"docs":{"remarkPlugins":[null,null],"sidebarPath":"/home/runner/work/graphql-mesh/graphql-mesh/website/sidebars.js","editUrl":"https://github.com/urigo/graphql-mesh/edit/master/website/"},"theme":{"customCss":"/home/runner/work/graphql-mesh/graphql-mesh/website/src/css/custom.css"}}]]});
+/* harmony default export */ __webpack_exports__["a"] = ({"plugins":[],"themes":[],"customFields":{},"themeConfig":{"algolia":{"apiKey":"c028a32ff6167533a28b0c7e8bb250d9","indexName":"graphql-mesh","algoliaOptions":{}},"navbar":{"title":"GraphQL Mesh","logo":{"alt":"GraphQL Mesh","src":"img/mesh-logo.svg"},"links":[{"to":"docs/getting-started/introduction","activeBasePath":"docs","label":"API & Documentation","position":"right"},{"href":"https://github.com/urigo/graphql-mesh","label":"GitHub","position":"right"},{"href":"https://the-guild.dev/connected-build?utm_source=github&utm_medium=release-note&utm_campaign=mesh#section-contact","label":"Contact Us","position":"right"}]},"footer":{"links":[{"title":"Community","items":[{"label":"Discord","href":"http://bit.ly/guild-chat"},{"label":"Stack Overflow","href":"https://stackoverflow.com/questions/tagged/graphql-mesh"}]},{"title":"Social","items":[{"label":"GitHub","href":"https://github.com/Urigo/graphql-mesh/"},{"label":"Twitter","href":"https://twitter.com/TheGuildDev"}]}],"copyright":"Copyright © 2020 GraphQL Mesh, The Guild, Inc. Built with Docusaurus."}},"title":"GraphQL Mesh","tagline":"Query anything, run anywhere","url":"https://graphql-mesh.com","baseUrl":"/","favicon":"img/favicon.ico","organizationName":"urigo","projectName":"graphql-mesh","presets":[["@docusaurus/preset-classic",{"docs":{"remarkPlugins":[null,null],"sidebarPath":"/home/runner/work/graphql-mesh/graphql-mesh/website/sidebars.js","editUrl":"https://github.com/urigo/graphql-mesh/edit/master/website/"},"theme":{"customCss":"/home/runner/work/graphql-mesh/graphql-mesh/website/src/css/custom.css"}}]]});
 
 /***/ }),
 /* 76 */
@@ -12838,7 +12839,7 @@ module.exports = {
 /* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var compactable = __webpack_require__(29);
+var compactable = __webpack_require__(30);
 var InvalidPropertyError = __webpack_require__(116);
 
 function populateComponents(properties, validator, warnings) {
@@ -12886,7 +12887,7 @@ module.exports = populateComponents;
 /* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var compactable = __webpack_require__(29);
+var compactable = __webpack_require__(30);
 
 function restoreWithComponents(property) {
   var descriptor = compactable[property.name];
@@ -13294,7 +13295,7 @@ module.exports = require("events");
  * Module dependencies.
  */
 
-var util = __webpack_require__(36);
+var util = __webpack_require__(37);
 var debug;
 var node10 = process.version.indexOf('v0.10.') === 0;
 
@@ -13562,7 +13563,7 @@ webpackContext.id = 101;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _theme_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(44);
+/* harmony import */ var _theme_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(45);
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -14159,7 +14160,7 @@ module.exports = removeUnused;
 /* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var override = __webpack_require__(33);
+var override = __webpack_require__(34);
 
 var INTEGER_PATTERN = /^\d+$/;
 
@@ -17992,7 +17993,7 @@ IndexCore.prototype.getObject = function(objectID, attrs, callback) {
 */
 IndexCore.prototype.getObjects = function(objectIDs, attributesToRetrieve, callback) {
   var isArray = __webpack_require__(15);
-  var map = __webpack_require__(39);
+  var map = __webpack_require__(40);
 
   var usage = 'Usage: index.getObjects(arrayOfObjectIDs[, callback])';
 
@@ -18041,7 +18042,7 @@ IndexCore.prototype.typeAheadValueOption = null;
 /* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var foreach = __webpack_require__(38);
+var foreach = __webpack_require__(39);
 
 module.exports = function merge(destination/* , sources */) {
   var sources = Array.prototype.slice.call(arguments);
@@ -18068,7 +18069,7 @@ module.exports = function merge(destination/* , sources */) {
 
 module.exports = function omit(obj, test) {
   var keys = __webpack_require__(151);
-  var foreach = __webpack_require__(38);
+  var foreach = __webpack_require__(39);
 
   var filtered = {};
 
@@ -18189,7 +18190,7 @@ module.exports.HttpsAgent = __webpack_require__(385);
  * Module dependencies.
  */
 
-var https = __webpack_require__(35);
+var https = __webpack_require__(36);
 var utils = __webpack_require__(98);
 var OriginalAgent = __webpack_require__(384).Agent;
 var OriginalHttpsAgent = https.Agent;
@@ -19603,7 +19604,7 @@ function inspect(obj) {
 var namespace = 'autocomplete:';
 
 var _ = __webpack_require__(24);
-var DOM = __webpack_require__(30);
+var DOM = __webpack_require__(31);
 
 // constructor
 // -----------
@@ -20792,7 +20793,7 @@ var useDocusaurusContext = __webpack_require__(5);
 var renderRoutes = __webpack_require__(70);
 
 // EXTERNAL MODULE: ../node_modules/@docusaurus/theme-classic/src/theme/Layout/index.js + 12 modules
-var Layout = __webpack_require__(44);
+var Layout = __webpack_require__(45);
 
 // EXTERNAL MODULE: ../node_modules/@babel/runtime/helpers/esm/extends.js
 var esm_extends = __webpack_require__(2);
@@ -20814,7 +20815,7 @@ var Link = __webpack_require__(11);
 var isInternalUrl = __webpack_require__(20);
 
 // EXTERNAL MODULE: ../node_modules/@docusaurus/theme-classic/src/theme/DocSidebar/styles.module.css
-var styles_module = __webpack_require__(32);
+var styles_module = __webpack_require__(33);
 var styles_module_default = /*#__PURE__*/__webpack_require__.n(styles_module);
 
 // CONCATENATED MODULE: ../node_modules/@docusaurus/theme-classic/src/theme/DocSidebar/index.js
@@ -20831,7 +20832,7 @@ if(item.collapsed!==prevCollapsedProp){setPreviousCollapsedProp(item.collapsed);
 function mutateSidebarCollapsingState(item,path){const{items,href,type}=item;switch(type){case'category':{const anyChildItemsActive=items.map(childItem=>mutateSidebarCollapsingState(childItem,path)).filter(val=>val).length>0;// eslint-disable-next-line no-param-reassign
 item.collapsed=!anyChildItemsActive;return anyChildItemsActive;}case'link':default:return href===path;}}function DocSidebar(props){const[showResponsiveSidebar,setShowResponsiveSidebar]=Object(react["useState"])(false);const{siteConfig:{themeConfig:{navbar:{title,hideOnScroll=false}={}}}={},isClient}=Object(useDocusaurusContext["a" /* default */])();const{logoLink,logoLinkProps,logoImageUrl,logoAlt}=Object(useLogo["a" /* default */])();const{docsSidebars,path,sidebar:currentSidebar,sidebarCollapsible}=props;Object(useLockBodyScroll["a" /* default */])(showResponsiveSidebar);if(!currentSidebar){return null;}const sidebarData=docsSidebars[currentSidebar];if(!sidebarData){throw new Error(`Cannot find the sidebar "${currentSidebar}" in the sidebar config!`);}if(sidebarCollapsible){sidebarData.forEach(sidebarItem=>mutateSidebarCollapsingState(sidebarItem,path));}return/*#__PURE__*/react_default.a.createElement("div",{className:styles_module_default.a.sidebar},hideOnScroll&&/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],Object(esm_extends["a" /* default */])({className:styles_module_default.a.sidebarLogo,to:logoLink},logoLinkProps),logoImageUrl!=null&&/*#__PURE__*/react_default.a.createElement("img",{key:isClient,src:logoImageUrl,alt:logoAlt}),title!=null&&/*#__PURE__*/react_default.a.createElement("strong",null,title)),/*#__PURE__*/react_default.a.createElement("div",{className:classnames_default()('menu','menu--responsive',styles_module_default.a.menu,{'menu--show':showResponsiveSidebar})},/*#__PURE__*/react_default.a.createElement("button",{"aria-label":showResponsiveSidebar?'Close Menu':'Open Menu',"aria-haspopup":"true",className:"button button--secondary button--sm menu__button",type:"button",onClick:()=>{setShowResponsiveSidebar(!showResponsiveSidebar);}},showResponsiveSidebar?/*#__PURE__*/react_default.a.createElement("span",{className:classnames_default()(styles_module_default.a.sidebarMenuIcon,styles_module_default.a.sidebarMenuCloseIcon)},"\xD7"):/*#__PURE__*/react_default.a.createElement("svg",{"aria-label":"Menu",className:styles_module_default.a.sidebarMenuIcon,xmlns:"http://www.w3.org/2000/svg",height:MOBILE_TOGGLE_SIZE,width:MOBILE_TOGGLE_SIZE,viewBox:"0 0 32 32",role:"img",focusable:"false"},/*#__PURE__*/react_default.a.createElement("title",null,"Menu"),/*#__PURE__*/react_default.a.createElement("path",{stroke:"currentColor",strokeLinecap:"round",strokeMiterlimit:"10",strokeWidth:"2",d:"M4 7h22M4 15h22M4 23h22"}))),/*#__PURE__*/react_default.a.createElement("ul",{className:"menu__list"},sidebarData.map(item=>/*#__PURE__*/react_default.a.createElement(DocSidebarItem,{key:item.label,item:item,onItemClick:()=>{setShowResponsiveSidebar(false);},collapsible:sidebarCollapsible})))));}/* harmony default export */ var theme_DocSidebar = (DocSidebar);
 // EXTERNAL MODULE: ../node_modules/prism-react-renderer/prism/index.js
-var prism_react_renderer_prism = __webpack_require__(41);
+var prism_react_renderer_prism = __webpack_require__(42);
 
 // CONCATENATED MODULE: ../node_modules/prism-react-renderer/themes/duotoneDark/index.js
 // Duotone Dark
@@ -21246,7 +21247,7 @@ var parse_numeric_range = __webpack_require__(105);
 var parse_numeric_range_default = /*#__PURE__*/__webpack_require__.n(parse_numeric_range);
 
 // EXTERNAL MODULE: ../node_modules/@docusaurus/theme-classic/src/theme/hooks/useThemeContext.js
-var useThemeContext = __webpack_require__(43);
+var useThemeContext = __webpack_require__(44);
 
 // EXTERNAL MODULE: ../node_modules/@docusaurus/theme-classic/src/theme/CodeBlock/styles.module.css
 var CodeBlock_styles_module = __webpack_require__(28);
@@ -21308,7 +21309,7 @@ return/*#__PURE__*/react_default.a.createElement("a",props);}return/*#__PURE__*/
 var NotFound = __webpack_require__(102);
 
 // EXTERNAL MODULE: ../node_modules/@docusaurus/core/lib/client/exports/router.js
-var router = __webpack_require__(42);
+var router = __webpack_require__(43);
 
 // EXTERNAL MODULE: ../node_modules/@docusaurus/theme-classic/src/theme/DocPage/styles.module.css
 var DocPage_styles_module = __webpack_require__(77);
@@ -21369,7 +21370,7 @@ var classnames = __webpack_require__(7);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
 
 // EXTERNAL MODULE: ../node_modules/@docusaurus/theme-classic/src/theme/DocItem/styles.module.css
-var styles_module = __webpack_require__(45);
+var styles_module = __webpack_require__(46);
 var styles_module_default = /*#__PURE__*/__webpack_require__.n(styles_module);
 
 // CONCATENATED MODULE: ../node_modules/@docusaurus/theme-classic/src/theme/DocItem/index.js
@@ -21400,7 +21401,7 @@ var classnames = __webpack_require__(7);
 var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
 
 // EXTERNAL MODULE: ../node_modules/@docusaurus/theme-classic/src/theme/Layout/index.js + 12 modules
-var Layout = __webpack_require__(44);
+var Layout = __webpack_require__(45);
 
 // EXTERNAL MODULE: ../node_modules/@docusaurus/core/lib/client/exports/useDocusaurusContext.js
 var useDocusaurusContext = __webpack_require__(5);
@@ -21409,7 +21410,7 @@ var useDocusaurusContext = __webpack_require__(5);
 var useBaseUrl = __webpack_require__(13);
 
 // EXTERNAL MODULE: ./src/pages/styles.module.css
-var styles_module = __webpack_require__(46);
+var styles_module = __webpack_require__(29);
 var styles_module_default = /*#__PURE__*/__webpack_require__.n(styles_module);
 
 // EXTERNAL MODULE: ./src/components/ui/button.module.css
@@ -21426,9 +21427,9 @@ var live_demo_styles_module = __webpack_require__(107);
 var live_demo_styles_module_default = /*#__PURE__*/__webpack_require__.n(live_demo_styles_module);
 
 // CONCATENATED MODULE: ./src/components/live-demo/index.js
-const EXAMPLES={'OpenAPI JavaScript Wiki':'openapi-javascript-wiki','OpenAPI Location Weather':'openapi-location-weather','OpenAPI YouTrack':'openapi-youtrack','JSON Schema':'json-schema-example','OData TripPin':'odata-trippin','SOAP Country Info':'soap-country-info','SQLite Chinook':'sqlite-chinook'};const DEFAULT_EXAMPLE_NAME=Object.keys(EXAMPLES)[0];/* harmony default export */ var live_demo = (()=>{const[exampleName,setExampleName]=Object(react["useState"])(DEFAULT_EXAMPLE_NAME);const[exampleRepo,setExampleRepo]=Object(react["useState"])(EXAMPLES[DEFAULT_EXAMPLE_NAME]);const changeExample=exampleName=>{setExampleName(exampleName);setExampleRepo(EXAMPLES[exampleName]);};return/*#__PURE__*/react_default.a.createElement("div",null,/*#__PURE__*/react_default.a.createElement("div",{className:live_demo_styles_module_default.a.picker},"Choose Live Example: ",/*#__PURE__*/react_default.a.createElement("select",{value:exampleName,onChange:e=>changeExample(e.target.value)},Object.keys(EXAMPLES).map(name=>/*#__PURE__*/react_default.a.createElement("option",{key:name,value:name},name)))),/*#__PURE__*/react_default.a.createElement("div",{className:live_demo_styles_module_default.a.container},/*#__PURE__*/react_default.a.createElement("iframe",{src:'https://codesandbox.io/embed/github/Urigo/graphql-mesh/tree/master/examples/'+exampleRepo+'?fontsize=14&hidenavigation=1&theme=dark&module=%2F.meshrc.yml',style:{width:"100%",height:"500px",border:"0",borderRadius:"4px",overflow:"hidden"},title:exampleName,allow:"geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin"})));});
+const EXAMPLES={'OpenAPI':{'JavaScript Wiki':'openapi-javascript-wiki','Location Weather':'openapi-location-weather','YouTrack':'openapi-youtrack'},'JSON Schema':{'Fake API':'json-schema-example'},'OData':{'TripPin':'odata-trippin'},'SOAP':{'Country Info':'soap-country-info'},'SQLite':{'Chinook':'sqlite-chinook'}};/* harmony default export */ var live_demo = (()=>{const[exampleRepo,setExampleRepo]=Object(react["useState"])('openapi-javascript-wiki');return/*#__PURE__*/react_default.a.createElement("div",null,/*#__PURE__*/react_default.a.createElement("div",{className:live_demo_styles_module_default.a.picker},"Choose Live Example: ",/*#__PURE__*/react_default.a.createElement("select",{value:exampleRepo,onChange:e=>setExampleRepo(e.target.value)},Object.keys(EXAMPLES).map(groupName=>/*#__PURE__*/react_default.a.createElement("optgroup",{key:groupName,label:groupName},Object.keys(EXAMPLES[groupName]).map(exampleName=>/*#__PURE__*/react_default.a.createElement("option",{key:exampleName,label:exampleName,value:EXAMPLES[groupName][exampleName]},exampleName)))))),/*#__PURE__*/react_default.a.createElement("div",{className:live_demo_styles_module_default.a.container},/*#__PURE__*/react_default.a.createElement("iframe",{src:'https://codesandbox.io/embed/github/Urigo/graphql-mesh/tree/master/examples/'+exampleRepo+'?fontsize=14&hidenavigation=1&theme=dark&module=%2F.meshrc.yml',style:{width:"100%",height:"500px",border:"0",borderRadius:"4px",overflow:"hidden"},title:exampleRepo,allow:"geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb",sandbox:"allow-modals allow-forms allow-popups allow-scripts allow-same-origin"})));});
 // CONCATENATED MODULE: ./src/pages/index.js
-const features=[{title:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"GraphQL as a Query Language"),imageUrl:'img/GraphQL_Logo.svg',description:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"Use GraphQL as a query language to fetch data from your data-sources directly, without the need for a running gateway server, or any other bottleneck.")},{title:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"Any Data Source"),imageUrl:'img/mesh-example.png',description:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"With GraphQL Mesh, you can use GraphQL query language to fetch from (almost) any data source, without changing the source or modify it's code.")},{title:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"Open Source"),imageUrl:'img/open-source.svg',description:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"GraphQL Mesh is free and open-source, and been built with the community. You can contribute, extend and have your custom logic easily.")}];function Feature({imageUrl,title,description}){const imgUrl=Object(useBaseUrl["a" /* default */])(imageUrl);return/*#__PURE__*/react_default.a.createElement("div",{className:classnames_default()('col col--4',styles_module_default.a.feature)},imgUrl&&/*#__PURE__*/react_default.a.createElement("div",{className:"text--center"},/*#__PURE__*/react_default.a.createElement("img",{className:styles_module_default.a.featureImage,src:imgUrl,alt:title})),/*#__PURE__*/react_default.a.createElement("h3",null,title),/*#__PURE__*/react_default.a.createElement("p",null,description));}function Home(){const context=Object(useDocusaurusContext["a" /* default */])();return/*#__PURE__*/react_default.a.createElement(Layout["a" /* default */],{title:`GraphQL Mesh`,description:""},/*#__PURE__*/react_default.a.createElement("header",null,/*#__PURE__*/react_default.a.createElement("div",null,/*#__PURE__*/react_default.a.createElement("video",{width:"100%",height:"100%",playsInline:true,autoPlay:true,muted:true,loop:true},/*#__PURE__*/react_default.a.createElement("source",{src:"/video/medium_1200X345.webm",type:"video/webm"}),/*#__PURE__*/react_default.a.createElement("source",{src:"/video/medium_1200X345.mp4",type:"video/mp4"}))),/*#__PURE__*/react_default.a.createElement("div",{className:styles_module_default.a.buttonsWrapper},/*#__PURE__*/react_default.a.createElement(Button,null,/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{to:'#live-demo'},"Try It Out Live")),/*#__PURE__*/react_default.a.createElement(Button,null,/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{to:`/docs/getting-started/introduction`},"View Docs")))),/*#__PURE__*/react_default.a.createElement("div",{className:styles_module_default.a.liveDemo},/*#__PURE__*/react_default.a.createElement("a",{id:"live-demo"}),/*#__PURE__*/react_default.a.createElement(live_demo,null)),/*#__PURE__*/react_default.a.createElement("main",null,features&&features.length&&/*#__PURE__*/react_default.a.createElement("section",{className:styles_module_default.a.features},/*#__PURE__*/react_default.a.createElement("div",{className:"container"},/*#__PURE__*/react_default.a.createElement("div",{className:"row"},features.map((props,idx)=>/*#__PURE__*/react_default.a.createElement(Feature,Object(esm_extends["a" /* default */])({key:idx},props))))))));}/* harmony default export */ var pages = __webpack_exports__["default"] = (Home);
+const features=[{title:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"GraphQL as a Query Language"),imageUrl:'img/GraphQL_Logo.svg',description:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"Use GraphQL as a query language to fetch data from your data-sources directly, without the need for a running gateway server, or any other bottleneck.")},{title:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"Any Data Source"),imageUrl:'img/mesh-example.png',description:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"With GraphQL Mesh, you can use GraphQL query language to fetch from (almost) any data source, without changing the source or modify it's code.")},{title:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"Open Source"),imageUrl:'img/open-source.svg',description:/*#__PURE__*/react_default.a.createElement(react_default.a.Fragment,null,"GraphQL Mesh is free and open-source, and been built with the community. You can contribute, extend and have your custom logic easily.")}];function Feature({imageUrl,title,description}){const imgUrl=Object(useBaseUrl["a" /* default */])(imageUrl);return/*#__PURE__*/react_default.a.createElement("div",{className:classnames_default()('col col--4',styles_module_default.a.feature)},imgUrl&&/*#__PURE__*/react_default.a.createElement("div",{className:"text--center"},/*#__PURE__*/react_default.a.createElement("img",{className:styles_module_default.a.featureImage,src:imgUrl,alt:title})),/*#__PURE__*/react_default.a.createElement("h3",null,title),/*#__PURE__*/react_default.a.createElement("p",null,description));}function Home(){const context=Object(useDocusaurusContext["a" /* default */])();return/*#__PURE__*/react_default.a.createElement(Layout["a" /* default */],{title:`GraphQL Mesh`,description:""},/*#__PURE__*/react_default.a.createElement("header",{class:styles_module_default.a.header},/*#__PURE__*/react_default.a.createElement("video",{width:"100%",height:"100%",playsInline:true,autoPlay:true,muted:true,loop:true},/*#__PURE__*/react_default.a.createElement("source",{src:"/video/medium_1200X345.webm",type:"video/webm"}),/*#__PURE__*/react_default.a.createElement("source",{src:"/video/medium_1200X345.mp4",type:"video/mp4"})),/*#__PURE__*/react_default.a.createElement("img",{class:styles_module_default.a.npmBadge,alt:"npm",src:"https://img.shields.io/npm/v/@graphql-mesh/runtime?color=%231BCBE2&label=stable&style=for-the-badge"}),/*#__PURE__*/react_default.a.createElement("div",{className:styles_module_default.a.buttons},/*#__PURE__*/react_default.a.createElement(Button,null,/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{to:'#live-demo'},"Try It Out Live")),/*#__PURE__*/react_default.a.createElement(Button,null,/*#__PURE__*/react_default.a.createElement(Link["a" /* default */],{to:`/docs/getting-started/introduction`},"View Docs")))),/*#__PURE__*/react_default.a.createElement("div",{className:styles_module_default.a.liveDemo},/*#__PURE__*/react_default.a.createElement("a",{id:"live-demo"}),/*#__PURE__*/react_default.a.createElement(live_demo,null)),/*#__PURE__*/react_default.a.createElement("main",null,features&&features.length&&/*#__PURE__*/react_default.a.createElement("section",{className:styles_module_default.a.features},/*#__PURE__*/react_default.a.createElement("div",{className:"container"},/*#__PURE__*/react_default.a.createElement("div",{className:"row"},features.map((props,idx)=>/*#__PURE__*/react_default.a.createElement(Feature,Object(esm_extends["a" /* default */])({key:idx},props))))))));}/* harmony default export */ var pages = __webpack_exports__["default"] = (Home);
 
 /***/ }),
 /* 213 */
@@ -25459,7 +25460,7 @@ var tidyAtRule = __webpack_require__(251);
 var Hack = __webpack_require__(82);
 var removeUnused = __webpack_require__(112);
 var restoreFromOptimizing = __webpack_require__(47);
-var wrapForOptimizing = __webpack_require__(34).all;
+var wrapForOptimizing = __webpack_require__(35).all;
 
 var OptimizationLevel = __webpack_require__(26).OptimizationLevel;
 
@@ -26704,12 +26705,12 @@ var everyValuesPair = __webpack_require__(114);
 var hasInherit = __webpack_require__(115);
 var populateComponents = __webpack_require__(85);
 
-var compactable = __webpack_require__(29);
+var compactable = __webpack_require__(30);
 var deepClone = __webpack_require__(58).deep;
 var restoreWithComponents = __webpack_require__(86);
 
 var restoreFromOptimizing = __webpack_require__(47);
-var wrapSingle = __webpack_require__(34).single;
+var wrapSingle = __webpack_require__(35).single;
 
 var serializeBody = __webpack_require__(9).body;
 var Token = __webpack_require__(8);
@@ -27153,7 +27154,7 @@ module.exports = mergeIntoShorthands;
 
 var InvalidPropertyError = __webpack_require__(116);
 
-var wrapSingle = __webpack_require__(34).single;
+var wrapSingle = __webpack_require__(35).single;
 
 var Token = __webpack_require__(8);
 var Marker = __webpack_require__(12);
@@ -28428,7 +28429,7 @@ var isMergeableShorthand = __webpack_require__(262);
 var overridesNonComponentShorthand = __webpack_require__(263);
 var sameVendorPrefixesIn = __webpack_require__(117).same;
 
-var compactable = __webpack_require__(29);
+var compactable = __webpack_require__(30);
 var deepClone = __webpack_require__(58).deep;
 var restoreWithComponents = __webpack_require__(86);
 var shallowClone = __webpack_require__(58).shallow;
@@ -28910,7 +28911,7 @@ module.exports = overrideProperties;
 /* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var compactable = __webpack_require__(29);
+var compactable = __webpack_require__(30);
 
 function findComponentIn(shorthand, longhand) {
   var comparator = nameComparator(longhand);
@@ -28956,7 +28957,7 @@ module.exports = findComponentIn;
 /* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var compactable = __webpack_require__(29);
+var compactable = __webpack_require__(30);
 
 function isComponentOf(property1, property2, shallow) {
   return isDirectComponentOf(property1, property2) ||
@@ -29001,7 +29002,7 @@ module.exports = isMergeableShorthand;
 /* 263 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var compactable = __webpack_require__(29);
+var compactable = __webpack_require__(30);
 
 function overridesNonComponentShorthand(property1, property2) {
   return property1.name in compactable &&
@@ -29727,7 +29728,7 @@ module.exports = removeDuplicates;
 
 var populateComponents = __webpack_require__(85);
 
-var wrapForOptimizing = __webpack_require__(34).single;
+var wrapForOptimizing = __webpack_require__(35).single;
 var restoreFromOptimizing = __webpack_require__(47);
 
 var Token = __webpack_require__(8);
@@ -31140,12 +31141,12 @@ module.exports = fetchFrom;
 /***/ (function(module, exports, __webpack_require__) {
 
 var http = __webpack_require__(60);
-var https = __webpack_require__(35);
+var https = __webpack_require__(36);
 var url = __webpack_require__(22);
 
 var isHttpResource = __webpack_require__(280);
 var isHttpsResource = __webpack_require__(281);
-var override = __webpack_require__(33);
+var override = __webpack_require__(34);
 
 var HTTP_PROTOCOL = 'http:';
 
@@ -31268,7 +31269,7 @@ module.exports = inlineOptionsFrom;
 
 var url = __webpack_require__(22);
 
-var override = __webpack_require__(33);
+var override = __webpack_require__(34);
 
 function inlineRequestFrom(option) {
   return override(
@@ -40776,7 +40777,7 @@ var debug = __webpack_require__(64)('algoliasearch:nodejs');
 var crypto = __webpack_require__(110);
 var zlib = __webpack_require__(366);
 
-var inherits = __webpack_require__(37);
+var inherits = __webpack_require__(38);
 var Promise = global.Promise || __webpack_require__(368).Promise;
 var semver = __webpack_require__(146);
 var isNotSupported = semver.satisfies(process.version, '<0.10');
@@ -40856,7 +40857,7 @@ inherits(AlgoliaSearchNodeJS, AlgoliaSearchServer);
 
 AlgoliaSearchNodeJS.prototype._request = function request(rawUrl, opts) {
   var http = __webpack_require__(60);
-  var https = __webpack_require__(35);
+  var https = __webpack_require__(36);
   var url = __webpack_require__(22);
 
   var client = this;
@@ -41463,7 +41464,7 @@ function plural(ms, n, name) {
  */
 
 var tty = __webpack_require__(365);
-var util = __webpack_require__(36);
+var util = __webpack_require__(37);
 
 /**
  * This is the Node.js implementation of `debug()`.
@@ -43192,7 +43193,7 @@ var objectKeys = Object.keys || function (obj) {
 
 module.exports = AlgoliaSearchServer;
 
-var inherits = __webpack_require__(37);
+var inherits = __webpack_require__(38);
 
 var AlgoliaSearch = __webpack_require__(374);
 
@@ -43276,7 +43277,7 @@ var Index = __webpack_require__(375);
 var deprecate = __webpack_require__(95);
 var deprecatedMessage = __webpack_require__(96);
 var AlgoliaSearchCore = __webpack_require__(378);
-var inherits = __webpack_require__(37);
+var inherits = __webpack_require__(38);
 var errors = __webpack_require__(50);
 
 function AlgoliaSearch() {
@@ -44043,7 +44044,7 @@ function notImplemented() {
 /* 375 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var inherits = __webpack_require__(37);
+var inherits = __webpack_require__(38);
 var IndexCore = __webpack_require__(148);
 var deprecate = __webpack_require__(95);
 var deprecatedMessage = __webpack_require__(96);
@@ -44300,7 +44301,7 @@ Index.prototype.deleteObject = function(objectID, callback) {
 */
 Index.prototype.deleteObjects = function(objectIDs, callback) {
   var isArray = __webpack_require__(15);
-  var map = __webpack_require__(39);
+  var map = __webpack_require__(40);
 
   var usage = 'Usage: index.deleteObjects(arrayOfObjectIDs[, callback])';
 
@@ -44341,7 +44342,7 @@ Index.prototype.deleteObjects = function(objectIDs, callback) {
 */
 Index.prototype.deleteByQuery = deprecate(function(query, params, callback) {
   var clone = __webpack_require__(27);
-  var map = __webpack_require__(39);
+  var map = __webpack_require__(40);
 
   var indexObj = this;
   var client = indexObj.as;
@@ -45519,7 +45520,7 @@ module.exports = keysShim;
 
 module.exports = IndexBrowser;
 
-var inherits = __webpack_require__(37);
+var inherits = __webpack_require__(38);
 var EventEmitter = __webpack_require__(97).EventEmitter;
 
 function IndexBrowser() {
@@ -45602,7 +45603,7 @@ function AlgoliaSearchCore(applicationID, apiKey, opts) {
 
   var clone = __webpack_require__(27);
   var isArray = __webpack_require__(15);
-  var map = __webpack_require__(39);
+  var map = __webpack_require__(40);
 
   var usage = 'Usage: algoliasearch(applicationID, apiKey, opts)';
 
@@ -46127,7 +46128,7 @@ AlgoliaSearchCore.prototype._getSearchParams = function(args, params) {
  * @param [Object] options.headers Extra headers to send
  */
 AlgoliaSearchCore.prototype._computeRequestHeaders = function(options) {
-  var forEach = __webpack_require__(38);
+  var forEach = __webpack_require__(39);
 
   var ua = options.additionalUA ?
     this._ua + '; ' + options.additionalUA :
@@ -46178,7 +46179,7 @@ AlgoliaSearchCore.prototype._computeRequestHeaders = function(options) {
  */
 AlgoliaSearchCore.prototype.search = function(queries, opts, callback) {
   var isArray = __webpack_require__(15);
-  var map = __webpack_require__(39);
+  var map = __webpack_require__(40);
 
   var usage = 'Usage: client.search(arrayOfQueries[, callback])';
 
@@ -46261,7 +46262,7 @@ AlgoliaSearchCore.prototype.search = function(queries, opts, callback) {
 */
 AlgoliaSearchCore.prototype.searchForFacetValues = function(queries) {
   var isArray = __webpack_require__(15);
-  var map = __webpack_require__(39);
+  var map = __webpack_require__(40);
 
   var usage = 'Usage: client.searchForFacetValues([{indexName, params: {facetName, facetQuery, ...params}}, ...queries])'; // eslint-disable-line max-len
 
@@ -46412,7 +46413,7 @@ AlgoliaSearchCore.prototype._cacheAppIdData = function(data) {
 };
 
 AlgoliaSearchCore.prototype._partialAppIdDataUpdate = function(newData) {
-  var foreach = __webpack_require__(38);
+  var foreach = __webpack_require__(39);
   var currentData = this._getAppIdData();
   foreach(newData, function(value, key) {
     currentData[key] = value;
@@ -46801,7 +46802,7 @@ function getParsedProxy() {
 
 function getKeepaliveAgent(protocol) {
   var http = __webpack_require__(60);
-  var https = __webpack_require__(35);
+  var https = __webpack_require__(36);
 
   var HttpsAgent = __webpack_require__(154).HttpsAgent;
   var HttpAgent = __webpack_require__(154);
@@ -46901,7 +46902,7 @@ function getProxyingAgent(protocol, parsedProxy) {
 
 
 var net = __webpack_require__(94);
-var util = __webpack_require__(36);
+var util = __webpack_require__(37);
 var EventEmitter = __webpack_require__(97).EventEmitter;
 var debug = __webpack_require__(98).debug;
 
@@ -47232,7 +47233,7 @@ exports.globalAgent = new Agent();
  * Module dependencies.
  */
 
-var https = __webpack_require__(35);
+var https = __webpack_require__(36);
 var utils = __webpack_require__(98);
 var HttpAgent = __webpack_require__(155);
 var OriginalHttpsAgent = https.Agent;
@@ -47323,10 +47324,10 @@ module.exports = HttpsAgent;
 var net = __webpack_require__(94)
   , tls = __webpack_require__(387)
   , http = __webpack_require__(60)
-  , https = __webpack_require__(35)
+  , https = __webpack_require__(36)
   , events = __webpack_require__(97)
   , assert = __webpack_require__(92)
-  , util = __webpack_require__(36)
+  , util = __webpack_require__(37)
   , Buffer = __webpack_require__(388).Buffer
   ;
 
@@ -47667,7 +47668,7 @@ module.exports = __webpack_require__(391);
 var zepto = __webpack_require__(156);
 
 // setup DOM element
-var DOM = __webpack_require__(30);
+var DOM = __webpack_require__(31);
 DOM.element = zepto;
 
 // setup utils functions
@@ -47764,7 +47765,7 @@ module.exports = autocomplete;
 var attrsKey = 'aaAttrs';
 
 var _ = __webpack_require__(24);
-var DOM = __webpack_require__(30);
+var DOM = __webpack_require__(31);
 var EventBus = __webpack_require__(157);
 var Input = __webpack_require__(393);
 var Dropdown = __webpack_require__(400);
@@ -48435,7 +48436,7 @@ specialKeyCodeMap = {
 };
 
 var _ = __webpack_require__(24);
-var DOM = __webpack_require__(30);
+var DOM = __webpack_require__(31);
 var EventEmitter = __webpack_require__(99);
 
 // constructor
@@ -48990,7 +48991,7 @@ exports.install = function (t) {
 
 
 var _ = __webpack_require__(24);
-var DOM = __webpack_require__(30);
+var DOM = __webpack_require__(31);
 var EventEmitter = __webpack_require__(99);
 var Dataset = __webpack_require__(401);
 var css = __webpack_require__(100);
@@ -49395,7 +49396,7 @@ var valueKey = 'aaValue';
 var datumKey = 'aaDatum';
 
 var _ = __webpack_require__(24);
-var DOM = __webpack_require__(30);
+var DOM = __webpack_require__(31);
 var html = __webpack_require__(158);
 var css = __webpack_require__(100);
 var EventEmitter = __webpack_require__(99);
@@ -50268,7 +50269,7 @@ function pointerCoord(event) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var prism_react_renderer_prism__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(41);
+/* harmony import */ var prism_react_renderer_prism__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(42);
 /* harmony import */ var _docusaurus_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(69);
 /* harmony import */ var _docusaurus_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_docusaurus_ExecutionEnvironment__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _generated_docusaurus_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(75);
